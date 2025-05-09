@@ -1,0 +1,30 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace
+/bin/
+/pkg/
+
+# Dependency directories (for vendoring)
+vendor/
+
+# Editor & OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Env files (sensitive config)
+.env
+
+# Logs
+*.log
+
+# Air temp directory (if using Air for hot reload)
+tmp/
